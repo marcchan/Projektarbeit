@@ -1,0 +1,39 @@
+%*************************************************
+%
+%       Headerstyle
+%       C.Koch
+%       file for determining the general footers
+%       and headers of this document
+%       Created 21.02.2001
+%
+%*************************************************
+
+
+% tune page headers and footers
+% for details see manual of fancyhdr
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% defining the layout for common pages
+\fancyhead{}                    % clear all fields  ... header
+\fancyfoot{}                    %   -'-             ... footer
+
+% re-defining \rightmark and \leftmark
+\renewcommand{\chaptermark}[1]{%
+ \markboth{\chaptername \ \thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}{}}
+
+\fancyhead[RO,LE]{\thepage}     % print page number on every page
+\fancyhead[LO]{\rightmark}      % odd pages: chapter information
+\fancyhead[RE]{\leftmark}       % even pages: section information
+
+% draw a thin line across the page
+\renewcommand{\headrulewidth}{0.4pt}
+
+% defining the layout for pages which switch automatically to 'plain' (CHAPTERS, etc.)
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[RO,LE]{\thepage}     % print page number
+%\fancyhead[L]{\thepage} % except the left corner
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}}

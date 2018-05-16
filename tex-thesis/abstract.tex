@@ -1,0 +1,52 @@
+%
+\chapter*{Kurzfassung}
+%
+\label{sec:Abstract}%
+% add this page manually to the table of contents with ROMAN letters
+\addcontentsline{toc}{section}{Abstract}
+%
+The aim of this thesis is to explore strategies for
+real-time image segmentation of non-rigid objects in a
+spatio-temporal domain with a stationary camera within an optical
+high dynamic range environment. Camera, illumination and
+segmentation techniques are discussed for image processing in
+environments which are characterized by large intensity
+fluctuations and hence a high optical dynamic range (HDR), in
+particular for vehicle interior surveillance.
+
+Since the introduction of the airbag in 1981 numberless lives were
+saved and bad injuries were avoided. But in recent years the
+airbag has frequently been in the headlines due to the increasing
+number of injuries caused by it. %Children and infants are
+%specially in danger if a passenger airbag deploys and hits the
+%unprotected body.
+To avoid these injuries a new generation of 'smart airba gs' has
+been designed which shows the ability to inflate in multiple steps
+and with different volumes. In order to determine the optimal
+inflation mode for a crash it is necessary to consider information
+about the interior situation and the occupants of the vehicle.
+This thesis presents a real-time visual occupant detection and
+classification system for advanced airbag deployment, utilizing a
+custom CMOS camera and motion based image segmentation algorithms
+for embedded systems under adverse illumination conditions.
+
+A novel illumination method is presented which combines a set of
+images flashed with different radiant intensities, which
+significantly simplifies image segmentation in HDR environments.
+With a constant exposure time for the imager a single image can be
+produced with a compressed dynamic range and a simultaneously
+reduced offset. This makes it possible to capture a vehicle
+interior under adverse light conditions without using high dynamic
+range cameras and without losing image detail. The expansion of
+this active illumination experiment leads to a novel shadow
+detection and removal technique that produces a shadow-free scene
+by simulating an artificial infinite illuminant plane over the
+field of view. Finally a shadowless image without loss of texture
+details is obtained without any region extraction phase.
+
+
+Furthermore, a texture based segmentation approach for stationary
+cameras is presented which is neither effected by sudden
+illumination changes nor by shadow effects. %This approach analysis
+%the frame ratio instead of performing established background
+%subtraction techniques.

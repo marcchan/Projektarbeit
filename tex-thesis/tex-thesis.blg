@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: tex-thesis.aux
+The style file: plain.bst
+A level-1 auxiliary file: title.aux
+A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: lists.aux
+A level-1 auxiliary file: acknowledgment.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: stateoftheart.aux
+A level-1 auxiliary file: implementation.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: einennoch.aux
+A level-1 auxiliary file: the-author.aux
+Database file #1: myliterature.bib
+Warning--empty institution in Goethe1782
+You've used 1 entry,
+            2118 wiz_defined-function locations,
+            514 strings with 4228 characters,
+and the built_in function-call counts, 217 in all, are:
+= -- 20
+> -- 7
+< -- 0
++ -- 3
+- -- 2
+* -- 11
+:= -- 48
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 8
+empty$ -- 16
+format.name$ -- 2
+if$ -- 39
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 3
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 5
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 12
+(There was 1 warning)
